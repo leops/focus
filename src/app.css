@@ -1,0 +1,28 @@
+#root {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.dropzone {
+    flex: 0.75;
+    min-height: 6em;
+
+    display: flex;
+    align-self: center;
+    margin: auto;
+
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+#root > p, .dropzone > p {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.8);
+}

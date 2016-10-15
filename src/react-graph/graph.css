@@ -1,0 +1,14 @@
+.graph {
+    position: relative;
+}
+
+.graph > * {
+    position: absolute;
+    z-index: 2;
+}
+
+.graph > svg {
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
