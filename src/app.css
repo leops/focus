@@ -1,9 +1,3 @@
-#root {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-}
-
 .dropzone {
     flex: 0.75;
     min-height: 6em;
@@ -18,7 +12,7 @@
     border-color: rgba(0, 0, 0, 0.6);
 }
 
-#root > p, .dropzone > p {
+:global(#root) > p, .dropzone > p {
     width: 100%;
     text-align: center;
     align-self: center;
